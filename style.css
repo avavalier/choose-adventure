@@ -1,0 +1,143 @@
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+.christpher,
+.bobby-end,
+.foosball-end,
+.yes-end,
+.no-end,
+.chris,
+.foosball,
+.bobby,
+.yourself,
+.mullet,
+.seat-options,
+.pingpong,
+.option-one-screen,
+.option-two-screen, 
+.option-one-end, 
+.option-two-end  {
+   display:none;
+}
+*/
+
+
+/* Feel free to change any of the styling below!*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fabb6e;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #f3d2a9;
+    border: 1px solid #e2e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.seat-options,
+.buttons {
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #28272756;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #4a191c86;
+}
+
+/* Style the screens for option one and option two */
+.chris,
+.pingpong-screen,
+.yes-end,
+.no-end,
+.foosball-end,
+.bobby-end,
+.option-one-screen,
+.option-two-screen,
+.option-one-end,
+.option-two-end {
+    background-color: #f3d2a9;
+    border: 1px solid #e2e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the images in the screens */
+.chris img,
+.pingpong-screen img,
+.foosball-end img,
+.bobby-end img,
+.yes-end img,
+.no-end img,
+.option-one-screen img,
+.option-two-screen img,
+.option-one-end img,
+.option-two-end img {
+    max-width: 700px;
+    max-height: 500px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the text in the screens */
+.chris h1,
+.pingpong-screen h1,
+.foosball-end h1,
+.bobby-end h1,
+.yes-end h1,
+.no-end h1,
+.option-one-screen h1,
+.option-two-screen h1,
+.option-one-end h1,
+.option-two-end h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
